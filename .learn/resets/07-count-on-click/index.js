@@ -13,13 +13,8 @@ window.increaseCounter = function increaseCounter()
 	// Increase the global counter by one
 	counter++;
 	// Update the screen with the new value
-	document.getElementById('screen').innerHTML = "The counter value is "+ counter;
+	document.getElementById('screen').innerHTML = "The counter value is "+counter;
 }
 
-window.decreaseCounter = function decreaseCounter() {
-	counter--
-
-	document.getElementById('screen').innerHTML = "The counter value is " + counter
-}
 // Your code here
 
